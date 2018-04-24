@@ -1,7 +1,7 @@
 import * as dmHelpers from './dataModule.js';
 import * as uimHelpers from './UIModule.js';
 
-const url = 'http://api.tvmaze.com/shows';
+const url = 'https://api.tvmaze.com/shows';
 
 function addSearchHandler() {
     $('.js-search-input').on('keyup', function (event) {
