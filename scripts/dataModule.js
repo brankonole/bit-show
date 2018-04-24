@@ -1,4 +1,4 @@
-const url = 'http://api.tvmaze.com/shows';
+const url = 'https://api.tvmaze.com/shows';
 
 class TVShows {
     constructor(shows = {}, limit = 50) {
